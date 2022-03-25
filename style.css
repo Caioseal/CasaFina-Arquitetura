@@ -1,0 +1,94 @@
+.container {
+    margin-top: 10px;
+}
+
+.card {
+    margin: 10px 0px;
+}
+
+#logo {
+    height: 50px;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url(imagens/castelo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    height: 100%;
+}
+
+.accordion {
+    margin-top: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #4f4f4f;
+    background-color: #eeeeee;
+}
+
+.accordion-button {
+    background-color: #eeeeee;
+    border: 1px solid #d1d0d0e3;
+}
+
+.carousel {
+    margin: 10px 0px;
+}
+
+.grupo-radio,
+.contato-select {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn {
+    margin: 10px 0px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#introducao {
+    width: 100%;
+    color: whitesmoke;
+    background: rgba( 0, 0, 0, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    transition: 0.4s;
+}
+
+#introducao h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#introducao p {
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .accordion {
+        margin-top: 0px;
+    }
+
+    #imagem-sobre-nos {
+        margin-bottom: 25px;
+    }
+}
