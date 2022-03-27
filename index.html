@@ -201,50 +201,62 @@
 		</div>
 	</div>
 
-	<section class="container">
-		<h3 id="video-institucional">Vídeo Institucional</h3>
-		<div class="ratio ratio-16x9">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/cbZeMFwq7JM"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</div>
-
-		<h2 id="contato">Contato</h2>
-		<p>Entre em contato conosco</p>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Nome:</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
-		</div>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">E-mail:</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@email.com">
-		</div>
-		<div class="grupo-radio">
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-				<label class="form-check-label" for="flexRadioDefault1">
-					Pessoa Física
-				</label>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="container">
+					<h3 id="video-institucional">Vídeo Institucional</h3>
+					<div class="ratio ratio-16x9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/cbZeMFwq7JM"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-				<label class="form-check-label" for="flexRadioDefault2">
-					Pessoa Jurídica
-				</label>
-			</div>
+				<div class="col-md-6">
+					<div class="container">
+						<h2 id="contato">Contato</h2>
+						<p>Entre em contato conosco</p>
+						<div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label">Nome:</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1"
+								placeholder="Seu nome">
+						</div>
+						<div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1"
+								placeholder="nome@email.com">
+						</div>
+						<div class="grupo-radio">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="flexRadioDefault"
+									id="flexRadioDefault1" checked>
+								<label class="form-check-label" for="flexRadioDefault1">
+									Pessoa Física
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="flexRadioDefault"
+									id="flexRadioDefault2">
+								<label class="form-check-label" for="flexRadioDefault2">
+									Pessoa Jurídica
+								</label>
+							</div>
+						</div>
+						<div class="contato-select">
+							<select class="form-select" aria-label="Default select example">
+								<option selected disabled>Eu moro em...</option>
+								<option value="1">Casa</option>
+								<option value="2">Apartamento</option>
+								<option value="3">Mansão</option>
+							</select>
+						</div>
+						<input class="btn btn-primary" type="submit" value="Enviar">
+					</div>
+				</div>
 		</div>
-		<div class="contato-select">
-			<select class="form-select" aria-label="Default select example">
-				<option selected disabled>Eu moro em...</option>
-				<option value="1">Casa</option>
-				<option value="2">Apartamento</option>
-				<option value="3">Mansão</option>
-			</select>
-		</div>
-
-		<input class="btn btn-primary" type="submit" value="Enviar">
-	</section>
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
 		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -255,11 +267,38 @@
 	<script src="js/navbar-animation-fix.js"></script>
 </body>
 
-<footer class="text-center text-lg-start">
-	<div class="text-center p-3 bg-dark text-light">
-		<p>&copy;&nbsp;2022 Copyright</p>
-		<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+<footer class="bg-dark text-center text-white">
+	<div class="container p-4">
+	  <section class="mb-4">
+		<!-- Facebook -->
+		<a class="btn btn-outline-light btn-floating m-1 t btn-white" href="#!" role="button">
+			<img src="imagens/icones/facebook.svg">
+		</a>
+  
+		<!-- Twitter -->
+		<a class="btn btn-outline-light btn-floating btn-white m-1" href="#!" role="button">
+		  <img src="imagens/icones/twitter.svg">
+		</a>
+  
+		<!-- Google -->
+		<a class="btn btn-outline-light btn-floating btn-white m-1" href="#!" role="button">
+			<img src="imagens/icones/google.svg">
+		</a>
+  
+		<!-- Instagram -->
+		<a class="btn btn-outline-light btn-floating btn-white m-1" href="#!" role="button">
+			<img src="imagens/icones/instagram.svg">
+		</a>
+  
+		<!-- Linkedin -->
+		<a class="btn btn-outline-light btn-floating btn-white m-1" href="#!" role="button">
+			<img src="imagens/icones/linkedin.svg">
+		</a>
+	  </section>
 	</div>
-</footer>
-
+	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+		<p>&copy;&nbsp;2022 Copyright</p>
+	  <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+	</div>
+  </footer>
 </html>
